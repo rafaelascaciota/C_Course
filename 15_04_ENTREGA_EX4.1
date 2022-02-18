@@ -1,0 +1,51 @@
+/******************************************************************************
+Crie um algoritmo que, dado um número informado pelo usuário,
+imprima a tabuada dele de 1 a 10. Use o formato de apresentação
+(considerando que o usuário informou o número 5):
+*******************************************************************************/
+
+//while --> funçao que usa como base a palavra enquanto.
+//enquanto um condiçao for verdadeira eu irei continuar 
+//fazendo a repetiçao daquela parte do programa
+
+//algoritmo:
+//1º. Perguntar ao usuário qual o número que ele quer saber a tabuada
+//2º. Pegar o número escolhido e multiplicar ele por valores de 1 a 10.
+//3º. Apresentar o resultado das multiplicaçoes pro usuário
+
+//incluindo (include) as bibliotecas necessárias para que o programa rode
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    //aqui deve ser feito a parte da programaçao
+    //1º. Pedir pro usuário determinar um número para que seja calculada
+    //sua tabuada
+    
+    int num;//declarando a variável 
+    int i = 1;
+    int resultado;
+    
+    printf("Digite um número para verificar a tabuada do mesmo\n");
+    scanf("%i", &num);//salvando o número digitado na variável num
+    //caso a variável seja um caracter eu nao utilizarei scanf
+    //com caracteres eu utilizo o getchar para salvar um caractere
+    //em uma variável
+    
+    //para eu fazer a repetiçao utilizar o while(enquanto)
+    
+    //enquanto (a variável i for menor ou igual a 10) faça   
+    while(i<=10){
+        //conta da tabuada
+        resultado = num*i;
+        //apresentar o resultado da conta ao usuário
+        printf("%i X %i = %i\n", i, num, resultado);
+        // o \n sempre pula a linha
+        //próximo looping(repetiçao)
+        i = i+1;
+    }
+}
+
+
+
+

@@ -1,0 +1,38 @@
+/******************************************************************************
+Escreva um programa que escreva na tela, de 1 ate 100, de 1 em
+1, 3 vezes. A primeira vez deve usar a estrutura de repetição for, a
+segunda while, e a terceira do while.
+*******************************************************************************/
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    
+    int i = 1;
+    printf("Impimir de 1 a 100 usando o FOR\n");
+    
+    for(i;i<=100;i++){
+        printf("%d\n", i);
+    }
+
+    printf("***********************************\n");    
+    printf("Impimir de 1 a 100 usando o WHILE\n");
+    
+    i = 1; //resetasse a variável i para o valor inicial dela
+    while(i<=100){
+        printf("%d\n", i);
+        i++;
+    }
+    
+    printf("***********************************\n");    
+    printf("Impimir de 1 a 100 usando o DO WHILE\n");
+    
+    i = 1;
+    do{
+        printf("%d\n", i);
+        i = i+1;
+    }while(i<=100);
+    
+}
+

@@ -1,0 +1,28 @@
+/******************************************************************************
+Leia uma temperatura em graus Fahrenheit e apresente-a convertida em graus Celsius.
+A fÃ³rmula de conversÃ£o Ã©: C = 5*(F - 32)/9, sendo C a temperatura em Celsius e F a
+temperatura em Fahrenheit.
+******************************************************************************/
+
+//Declarei as bibliotecas que serao utilizadas
+#include <stdio.h>
+#include <stdlib.h>
+
+
+//iniciar a parte da lÃ³gica de programaçao
+int main(){
+    
+    //determinaçao do tipo de variável
+    float F, C;
+    
+    //perguntar qual valor deve ser convertido
+    printf("Qual Ã© a temperatura que deve ser convertida para Celsius?\n");
+    //guardar a temperatura escrita pelo usuário
+    scanf("%f", &F);
+    
+    //equacionamento referente a conversao de Fahrenheit para Celsius
+    C = (5*(F-32))/9;
+    
+    //apresentar o resultado da equaÃ§ao ao usuário
+    printf("A temperatura em Graus Celsius é: %.2f", C);
+}

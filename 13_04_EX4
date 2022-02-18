@@ -1,0 +1,59 @@
+/******************************************************************************
+Faça um programa que leia um número e, caso ele seja positivo,
+calcule e mostre:
+O número digitado ao quadrado
+A raiz quadrada do número digitado
+*******************************************************************************/
+
+//Todos os programas devem ter a seguinte sequencia:
+//1. ler e ver qual é a solicitaçao que o enunciado faz.
+//2. inserir as bibliotecas que serao utilizadas
+//3. iniciar a funçao que ocorrerá a programaçao com o int main
+//4. colocar toda a programaçao dentro do int main 
+//5. declarar as variáveis
+//6. solicitar a informaçao necessária do usuário
+//7. fazer a devida programaçao
+//8. apresentar o resultado ao usuário
+
+
+#include<stdio.h>    //#include serve para incluir as bibliotecas
+                     //stdio ---> biblioteca referente as entradas e saídas
+#include<stdlib.h>   //stdlib --> biblioteca referente aos comandos básicos
+#include<math.h>     //math  ---> biblioteca referente aos comandos matemáticos
+
+int main(){
+    //objetivo = 1º. Verificar se o número é positivo
+    //           2º. Se o número for positivo determinar a raiz quadrada 
+    //           e o quadrado do número digitado pelo usuário
+    
+    //determinando que as variáveis serao do tipo float
+    //ou seja elas podem receber valores inteiros e valores com virgula
+    float quadrado;
+    float num;
+    float raiz;
+    
+    printf("Digite um número:\n"); //apresentar a frase na tela para o ususário
+    //guardar o que foi digitado pelo ususário em uma variável
+    scanf("%f", &num);
+    
+    //1º. irei verificar se o número é positivo
+    
+    //se num for maior do que zero: calcule o quadrado e a raiz
+    //caso contrário: apresente uma informaçao que o número nao é positivo
+    
+    if(num>0){
+        printf("Este número é positivo.\n");
+        //calculei o quadrado e a raiz do número
+        quadrado = num*num;
+        raiz = sqrt(num); //sqrt = funçao para determinar a raiz quadrada de um número
+        //apresentar o resultado ao usuário
+        printf("O quadrado de %f é: %f\n", num, quadrado);
+        printf("A raiz de %f é: %f\n", num, raiz);
+        
+    }else if(num>-5 && num<1){
+        printf("Este número é negativo. E está entre 0 e -5\n");
+    }else{
+        printf("Este número é negativo. E é menor do que -5\n");
+    }
+    
+}

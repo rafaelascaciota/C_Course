@@ -1,0 +1,29 @@
+/******************************************************************************
+Faça um programa que receba um número inteiro e verifique se
+este número é par ou ímpar.
+*******************************************************************************/
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+     //um número par é aquele número que quando divido por 2 o seu resto é zero
+     //o numero ímpar quando dividido por 2 tem resto diferente de zero
+     
+     int num;
+     int resto;
+     
+     printf("Escreva um número:\n");
+     scanf("%d", &num);
+     
+     //quando eu utilizo o simbolo de % ao invés de / quer dizer que o resultado 
+     //deve ser o resto da divisao 
+     resto = num%2;
+     
+     if(resto == 0){
+          //quando estou comparando informaçoes tenho que utilizar ==
+          printf("O número escrito é PAR!");
+     }else{
+          printf("O número escrito é IMPAR.");
+     }
+}

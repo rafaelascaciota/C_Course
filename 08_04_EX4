@@ -1,0 +1,33 @@
+/******************************************************************************
+Faça um programa que calcula a associação em paralelo de dois
+resistores R1 e R2 fornecidos pelo usuário via teclado. O programa
+fica pedindo estes valores e calculando até que o usuário entre com
+um valor para resistência igual a zero.
+*******************************************************************************/
+
+//incluir as bibliotecas
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    float r1;
+    float r2, resultado;
+    
+    do{
+        //o cálculo da média das resistências enquanto
+        //resistência for diferente de zero
+        printf("Digite o valor da primeira resistência:\n");
+        scanf("%f", &r1);
+        
+        printf("Digite o valor da segunda resistência:\n");
+        scanf("%f", &r2);
+        
+        resultado = (r1*r2)/(r1+r2);
+        printf("O valor do resistor resultante é: %.2f\n", resultado);
+    }while(r1!=0 || r2!=0); 
+    
+    printf("Nao é possível calcular pois uma das resistencias é ZERO");
+    //!= ---> diferente
+    //== ---> igual
+}
+

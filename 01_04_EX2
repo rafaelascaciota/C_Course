@@ -1,0 +1,33 @@
+/******************************************************************************
+Leia o salário de um trabalhador e o valor da prestação de um
+empréstimo. Se a prestação for maior que 20% do salário imprima:
+Empréstimo não concedido, caso contrário imprima: Empréstimo
+concedido.
+*******************************************************************************/
+
+//incluir as bibliotecas
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    
+    float salario;
+    float prestacao;
+    float avalia;
+    
+    printf("Apresente o valor do salário recebido pelo trabalhador:\n");
+    scanf("%f", &salario);
+    
+    printf("Qual é o valor da prestaçao do empréstimo?\n");
+    scanf("%f", &prestacao);
+    
+    //calcular quanto é 20% do salário
+    // salario*20% = salario*(20/100)
+    avalia = salario*0.2;
+    
+    if(prestacao > avalia){
+        printf("Empréstimo nao consedido.");
+    }else{
+        printf("Empréstimo consedido");
+    }
+}

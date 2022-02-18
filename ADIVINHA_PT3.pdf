@@ -1,0 +1,524 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 18303>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 14.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 38.22 Tm 0 Tr ( 1  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 49.55 Tm 0 Tr ( 2  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 61.95 49.55 Tm 0 Tr (/*  Este programa esta sendo produzido na) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 60.89 Tm 0 Tr ( 3  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 60.89 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 60.89 Tm 0 Tr (disciplina de PSM. Esta eh a parte II do) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 72.23 Tm 0 Tr ( 4  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 72.23 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 72.23 Tm 0 Tr (Jogo de Adivinhação) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 83.57 Tm 0 Tr ( 5  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 83.57 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 83.57 Tm 0 Tr (autores: Prof. Rafaela S*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 94.91 Tm 0 Tr ( 6  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 61.95 94.91 Tm 0 Tr (//este item é o comentário) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 106.25 Tm 0 Tr ( 7  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 117.59 Tm 0 Tr ( 8  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 61.95 117.59 Tm 0 Tr (#include<stdlib.h>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 128.92 Tm 0 Tr ( 9  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 61.95 128.92 Tm 0 Tr (#include<time.h>) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 140.26 Tm 0 Tr (10  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 61.95 140.26 Tm 0 Tr (#include<stdio.h> ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 213.15 140.26 Tm 0 Tr (/*aqui temos uma biblioteca) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 151.60 Tm 0 Tr (11  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 151.60 Tm 0 Tr (                  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 213.15 151.60 Tm 0 Tr (de entradas e saidas*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 162.94 Tm 0 Tr (12  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 174.28 Tm 0 Tr (13  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 61.95 174.28 Tm 0 Tr (#define num_max 100 ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 229.95 174.28 Tm 0 Tr (//definir constantes no meu programa) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 185.62 Tm 0 Tr (14  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 61.95 185.62 Tm 0 Tr (#define num_min 0) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 196.96 Tm 0 Tr (15  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 61.95 196.96 Tm 0 Tr (//#define tentativas 5) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 208.29 Tm 0 Tr (16  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 219.63 Tm 0 Tr (17  ) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 61.95 219.63 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 14.00 Tf ET
+1.000 1.000 1.000 rg
+95.55 209.76 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 219.63 Tm 0 Tr (main) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 219.63 Tm 0 Tr (\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 230.97 Tm 0 Tr (18  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 242.31 Tm 0 Tr (19  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 242.31 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+95.55 232.44 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 242.31 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 145.95 242.31 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 154.35 242.31 Tm 0 Tr ("********************************\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 456.75 242.31 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 253.65 Tm 0 Tr (20  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 253.65 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+95.55 243.78 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 253.65 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 145.95 253.65 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 154.35 253.65 Tm 0 Tr ("*      Jogo de Advinhacao      *\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 456.75 253.65 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 264.99 Tm 0 Tr (21  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 264.99 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+95.55 255.12 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 264.99 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 145.95 264.99 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 154.35 264.99 Tm 0 Tr ("********************************\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 456.75 264.99 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 276.33 Tm 0 Tr (22  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 287.66 Tm 0 Tr (23  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 287.66 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 287.66 Tm 0 Tr (//fazer o numero secreto randomico\(aleatorio\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 299.00 Tm 0 Tr (24  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 299.00 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 299.00 Tm 0 Tr (//numero de segundos passados desde janeiro de 1970 ate) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 310.34 Tm 0 Tr (hoje) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 321.68 Tm 0 Tr (25  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 333.02 Tm 0 Tr (26  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 333.02 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 95.55 333.02 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 14.00 Tf ET
+1.000 1.000 1.000 rg
+129.15 323.15 75.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 129.15 333.02 Tm 0 Tr (segundos ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 204.75 333.02 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+221.55 323.15 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 221.55 333.02 Tm 0 Tr (time) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 255.15 333.02 Tm 0 Tr (\() Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 263.55 333.02 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 271.95 333.02 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 344.36 Tm 0 Tr (27  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 344.36 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+95.55 334.49 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 344.36 Tm 0 Tr (srand) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 137.55 344.36 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+145.95 334.49 67.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 145.95 344.36 Tm 0 Tr (segundos) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 213.15 344.36 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 355.70 Tm 0 Tr (28  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 367.03 Tm 0 Tr (29  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 367.03 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 95.55 367.03 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 14.00 Tf ET
+1.000 1.000 1.000 rg
+129.15 357.17 117.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 129.15 367.03 Tm 0 Tr (numero_grande ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.75 367.03 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+263.55 357.17 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 263.55 367.03 Tm 0 Tr (rand) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 297.15 367.03 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 378.37 Tm 0 Tr (30  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 378.37 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 95.55 378.37 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 14.00 Tf ET
+1.000 1.000 1.000 rg
+129.15 368.50 109.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 129.15 378.37 Tm 0 Tr (numerosecreto) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 378.37 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 389.71 Tm 0 Tr (31  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 389.71 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 95.55 389.71 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 14.00 Tf ET
+1.000 1.000 1.000 rg
+129.15 379.84 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 129.15 389.71 Tm 0 Tr (chute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 171.15 389.71 Tm 0 Tr (;       ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 238.35 389.71 Tm 0 Tr (//chute do usuario) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 401.05 Tm 0 Tr (32  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 401.05 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 95.55 401.05 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 14.00 Tf ET
+1.000 1.000 1.000 rg
+129.15 391.18 58.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 129.15 401.05 Tm 0 Tr (ganhou ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 187.95 401.05 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 204.75 401.05 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 213.15 401.05 Tm 0 Tr (;  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 238.35 401.05 Tm 0 Tr (//ganhou ou perdeu) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 412.39 Tm 0 Tr (33  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 412.39 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 95.55 412.39 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 14.00 Tf ET
+1.000 1.000 1.000 rg
+129.15 402.52 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 129.15 412.39 Tm 0 Tr (loop ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 171.15 412.39 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 187.95 412.39 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 412.39 Tm 0 Tr (;    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 238.35 412.39 Tm 0 Tr (//numero de tentativas) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 423.73 Tm 0 Tr (34  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 435.07 Tm 0 Tr (35  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 435.07 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+95.55 425.20 117.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 435.07 Tm 0 Tr (numerosecreto ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 213.15 435.07 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+229.95 425.20 117.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 229.95 435.07 Tm 0 Tr (numero_grande ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 347.55 435.07 Tm 0 Tr (% ) Tj  ET Q
+1.000 1.000 1.000 rg
+364.35 425.20 58.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 364.35 435.07 Tm 0 Tr (num_max) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 423.15 435.07 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 446.40 Tm 0 Tr (36  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 457.74 Tm 0 Tr (37  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 457.74 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 457.74 Tm 0 Tr (//printf\("Time: %d\\n", segundos\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 469.08 Tm 0 Tr (38  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 469.08 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 469.08 Tm 0 Tr (//printf\("Numero Grande: %d\\n", numero_grande\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 480.42 Tm 0 Tr (39  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 480.42 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 480.42 Tm 0 Tr (//printf\("Numero secreto eh: %d\\n", numerosecreto\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 491.76 Tm 0 Tr (40  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 503.10 Tm 0 Tr (41  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 503.10 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 503.10 Tm 0 Tr (//fazendo jogo occorer ate 5 vezes) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 514.44 Tm 0 Tr (42  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 514.44 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 514.44 Tm 0 Tr (// incremento i++ ---> i = i+1) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 525.77 Tm 0 Tr (43  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 525.77 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 525.77 Tm 0 Tr (// incremento i-- ---> i = i-1) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 537.11 Tm 0 Tr (44  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 548.45 Tm 0 Tr (45  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 548.45 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 548.45 Tm 0 Tr (//for = para) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 559.79 Tm 0 Tr (46  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 559.79 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 559.79 Tm 0 Tr (//while = enquanto) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 571.13 Tm 0 Tr (47  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 582.47 Tm 0 Tr (48  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 582.47 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 95.55 582.47 Tm 0 Tr (while) Tj  ET Q
+BT /F1 14.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 137.55 582.47 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+145.95 572.60 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 145.95 582.47 Tm 0 Tr (ganhou) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 582.47 Tm 0 Tr (==) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 213.15 582.47 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 221.55 582.47 Tm 0 Tr (\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 593.81 Tm 0 Tr (49  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 605.14 Tm 0 Tr (50  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 605.14 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 605.14 Tm 0 Tr (//comentei a funcao for que apresentava o programa de 5) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 616.48 Tm 0 Tr (numero de tentativas) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 627.82 Tm 0 Tr (51  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 627.82 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 627.82 Tm 0 Tr (//for\(int i=1;i<=tentativas;i++\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 639.16 Tm 0 Tr (52  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 650.50 Tm 0 Tr (53  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 650.50 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+95.55 640.63 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 650.50 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 145.95 650.50 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 154.35 650.50 Tm 0 Tr ("Tentativa n: %d\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 313.95 650.50 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+330.75 640.63 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 330.75 650.50 Tm 0 Tr (loop) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.35 650.50 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 661.84 Tm 0 Tr (54  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 673.18 Tm 0 Tr (55  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 673.18 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+95.55 663.31 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 673.18 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 145.95 673.18 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 154.35 673.18 Tm 0 Tr ("Qual eh o seu chute?\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 355.95 673.18 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 684.51 Tm 0 Tr (56  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 684.51 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+95.55 674.65 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 684.51 Tm 0 Tr (scanf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 137.55 684.51 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 145.95 684.51 Tm 0 Tr ("%d") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 179.55 684.51 Tm 0 Tr (, &) Tj  ET Q
+1.000 1.000 1.000 rg
+204.75 674.65 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 204.75 684.51 Tm 0 Tr (chute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.75 684.51 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 695.85 Tm 0 Tr (57  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 707.19 Tm 0 Tr (58  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 718.53 Tm 0 Tr (59  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 718.53 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 718.53 Tm 0 Tr (//printf\("O chute do usuario foi %d e o numero secreto) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 729.87 Tm 0 Tr (eh %d\\n", chute, numerosecreto\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 741.21 Tm 0 Tr (60  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 752.55 Tm 0 Tr (61  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 763.89 Tm 0 Tr (62  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 763.89 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 129.15 763.89 Tm 0 Tr (if) Tj  ET Q
+BT /F1 14.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 145.95 763.89 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 754.02 58.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 763.89 Tm 0 Tr (num_min) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 213.15 763.89 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+221.55 754.02 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 221.55 763.89 Tm 0 Tr (chute ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 271.95 763.89 Tm 0 Tr (&& ) Tj  ET Q
+1.000 1.000 1.000 rg
+297.15 754.02 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 297.15 763.89 Tm 0 Tr (chute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 339.15 763.89 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+347.55 754.02 58.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 347.55 763.89 Tm 0 Tr (num_max) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 406.35 763.89 Tm 0 Tr (\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 775.22 Tm 0 Tr (63  ) Tj  ET Q
+Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 10344>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 14.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 38.22 Tm 0 Tr (64  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 38.22 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 162.75 38.22 Tm 0 Tr (if) Tj  ET Q
+BT /F1 14.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 179.55 38.22 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+187.95 28.35 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 187.95 38.22 Tm 0 Tr (chute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 229.95 38.22 Tm 0 Tr (==) Tj  ET Q
+1.000 1.000 1.000 rg
+246.75 28.35 109.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 246.75 38.22 Tm 0 Tr (numerosecreto) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 355.95 38.22 Tm 0 Tr (\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 49.55 Tm 0 Tr (65  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 60.89 Tm 0 Tr (66  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 60.89 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 51.02 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 60.89 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.75 60.89 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 255.15 60.89 Tm 0 Tr ("Parabens, voce descobriu o numero) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 72.23 Tm 0 Tr (secreto.\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 120.75 72.23 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 83.57 Tm 0 Tr (67  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 83.57 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 73.70 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 83.57 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.75 83.57 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 255.15 83.57 Tm 0 Tr ("O numero secreto era: %d\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 490.35 83.57 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+28.35 85.04 109.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 94.91 Tm 0 Tr (numerosecreto) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 137.55 94.91 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 106.25 Tm 0 Tr (68  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 106.25 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 96.38 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 106.25 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.75 106.25 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 255.15 106.25 Tm 0 Tr ("Voce acertou o numero secreto em %d) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 117.59 Tm 0 Tr (tentativas\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 137.55 117.59 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 107.72 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 117.59 Tm 0 Tr (loop) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 187.95 117.59 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 128.92 Tm 0 Tr (69  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 128.92 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 119.06 58.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 128.92 Tm 0 Tr (ganhou ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 255.15 128.92 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 271.95 128.92 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 128.92 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 140.26 Tm 0 Tr (70  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 140.26 Tm 0 Tr (                ) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 196.35 140.26 Tm 0 Tr (break) Tj  ET Q
+BT /F1 14.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 140.26 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 151.60 Tm 0 Tr (71  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 162.94 Tm 0 Tr (72  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 162.94 Tm 0 Tr (            ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 162.75 162.94 Tm 0 Tr (}) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 171.15 162.94 Tm 0 Tr (else if) Tj  ET Q
+BT /F1 14.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 229.95 162.94 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+238.35 153.07 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 162.94 Tm 0 Tr (chute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 162.94 Tm 0 Tr (>) Tj  ET Q
+1.000 1.000 1.000 rg
+288.75 153.07 109.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 288.75 162.94 Tm 0 Tr (numerosecreto) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 397.95 162.94 Tm 0 Tr (\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 174.28 Tm 0 Tr (73  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 185.62 Tm 0 Tr (74  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 185.62 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 175.75 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 185.62 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.75 185.62 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 255.15 185.62 Tm 0 Tr ("O chute foi maior que o numero) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 196.96 Tm 0 Tr (secreto.\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 120.75 196.96 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 208.29 Tm 0 Tr (75  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 208.29 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 198.43 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 208.29 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.75 208.29 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 255.15 208.29 Tm 0 Tr ("Voce errou, tente novamente.\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 523.95 208.29 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 219.63 Tm 0 Tr (76  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 230.97 Tm 0 Tr (77  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 230.97 Tm 0 Tr (            ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 162.75 230.97 Tm 0 Tr (}) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 171.15 230.97 Tm 0 Tr (else) Tj  ET Q
+BT /F1 14.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 204.75 230.97 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 242.31 Tm 0 Tr (78  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 253.65 Tm 0 Tr (79  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 253.65 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 243.78 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 253.65 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.75 253.65 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 255.15 253.65 Tm 0 Tr ("O chute foi menor que o numero) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 264.99 Tm 0 Tr (secreto.\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 120.75 264.99 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 276.33 Tm 0 Tr (80  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 276.33 Tm 0 Tr (                ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 266.46 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 276.33 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 246.75 276.33 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 255.15 276.33 Tm 0 Tr ("Voce errou, tente novamente.\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 523.95 276.33 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 287.66 Tm 0 Tr (81  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 287.66 Tm 0 Tr (            ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 162.75 287.66 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 299.00 Tm 0 Tr (82  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 299.00 Tm 0 Tr (        ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 299.00 Tm 0 Tr (}) Tj  ET Q
+BT /F2 14.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 137.55 299.00 Tm 0 Tr (else) Tj  ET Q
+BT /F1 14.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 171.15 299.00 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 310.34 Tm 0 Tr (83  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 310.34 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+162.75 300.47 50.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 162.75 310.34 Tm 0 Tr (printf) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 213.15 310.34 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 221.55 310.34 Tm 0 Tr ("O valor e invalido. Os chutes so podem) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 321.68 Tm 0 Tr (ser valores entre 0 e 100.\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 271.95 321.68 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 333.02 Tm 0 Tr (84  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 333.02 Tm 0 Tr (        ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 333.02 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 344.36 Tm 0 Tr (85  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 344.36 Tm 0 Tr (    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 95.55 344.36 Tm 0 Tr (//loop++) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 355.70 Tm 0 Tr (86  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 355.70 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+95.55 345.83 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 355.70 Tm 0 Tr (loop ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 137.55 355.70 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 345.83 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 355.70 Tm 0 Tr (loop ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 355.70 Tm 0 Tr (+ ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 213.15 355.70 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 221.55 355.70 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 367.03 Tm 0 Tr (87  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 61.95 367.03 Tm 0 Tr (    ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 95.55 367.03 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 378.37 Tm 0 Tr (88  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 61.95 378.37 Tm 0 Tr (}) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+7 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 7 0 R
+/F1 8 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+9 0 obj
+<<
+/Names []
+>>
+endobj
+10 0 obj
+<<
+/Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 8)
+/CreationDate (D:20200910220301)
+>>
+endobj
+11 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000028936 00000 n 
+0000029224 00000 n 
+0000000009 00000 n 
+0000000098 00000 n 
+0000018452 00000 n 
+0000018541 00000 n 
+0000029031 00000 n 
+0000029130 00000 n 
+0000029338 00000 n 
+0000029369 00000 n 
+0000029477 00000 n 
+trailer
+<<
+/Size 12
+/Root 11 0 R
+/Info 10 0 R
+>>
+startxref
+29581
+%%EOF

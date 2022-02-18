@@ -1,0 +1,29 @@
+/******************************************************************************
+Faça um programa que receba um número inteiro e verifique se
+este número é par ou ímpar.
+*******************************************************************************/
+
+//incluir as bibliotecas
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){//iniciei meu programa
+     int numero; //determinei o tipo de variável
+     int resto; //variavel criada para verificar se o resto é zero
+     
+     printf("Escreva um número inteiro:\n"); //solicitei ao usuário que apresente número
+     scanf("%d", &numero); //guardei o número digitado pelo ususário na variável
+     
+     //numero/2 -> fazendo realmente a divisao por dois 
+     //numero%2 -> verificando qual é o resto da divisao
+     resto = numero%2;
+     
+     //estutura de decisao:
+     //O número tem resto 0? (o número é par?)
+     if(resto == 0){
+         printf("O número digitado é PAR!");
+     }else{
+         printf("O número digitado é IMPAR!");
+     }
+     
+}

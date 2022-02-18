@@ -1,0 +1,43 @@
+/******************************************************************************
+Usando switch, escreva um programa que leia um inteiro entre 1 e
+7 e imprima o dia da semana correspondente a este numero. Isto
+é, domingo se 1, segunda-feira se 2, e assim por diante.
+*******************************************************************************/
+
+//incluir as bibliotecas
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    int dia;
+    
+    printf("Escreva um número para verificar qual é o nome dele no dia da semana:\n");
+    scanf("%i", &dia);
+    
+    switch(dia){
+        case 1:
+            printf("Domingo");
+            break; //força o meu programa a finalizar
+        case 2:
+            printf("Segunda-feira");
+            break;
+        case 3:
+            printf("Terça-feira");
+            break;
+        case 4:
+            printf("Quarta-feita");
+            break;
+        case 5:
+            printf("Quinta-feira");
+            break;
+        case 6:
+            printf("Sexta-feira");
+            break;
+        case 7:
+            printf("Sábado");
+            break;
+        default:
+            printf("Este número nao é referente a um dia da semana.");
+            break;
+    }
+}

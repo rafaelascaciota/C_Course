@@ -1,0 +1,47 @@
+/***********************************************
+Peça ao usuário para digitar três valores inteiros e imprima a soma
+deles.
+***********************************************/
+
+//Todos os meus programas serao iniciados com as declaraçao das bibliotecas
+#include<stdio.h> 
+#include<stdlib.h>
+
+//abrir a parte onde ocorrerá a programaçao
+int main(){
+    
+    //num1, num2, num3 e valor sao variáveis
+    //int é o tipo de dado que será colocada nesta variável
+    //int = números inteiros
+    
+    int num1;
+    int num2;
+    int num3;
+    int valor;
+    
+    //funçao utilizada para apresentar informaçao ao usuário
+    printf("Apresente o primeiro número para a soma:\n");
+    //funçao utilizada para guardas informaçao
+    scanf("%i", &num1); //scanf("tipo de dado", & nome da variavel)
+    //ver se conseguimos guardar o número
+    printf("O primeiro número é %i \n", num1); //printf("Escrito na tela tipo de dado", nome da variável)
+    
+    //agora eu vou solicitar o segundo número
+    printf("Apresente o segundo número para a soma:\n");
+    //guardar este valor na variável num2
+    scanf("%i", &num2);
+    
+    //solicitar o terceiro número
+    printf("Apresente o terceiro número para a soma:\n");
+    //guardar o terceiro número na variável num3
+    scanf("%i", &num3);
+    
+    //fazer a conta da soma dos 3 números
+    //funçao de soma dos valores apresentados pelo usuário
+    valor = num1 + num2 + num3;
+    
+    //apresentar o resultado final para o ususário
+    printf("A resposta da soma é: %i", valor);
+}
+
+

@@ -1,0 +1,23 @@
+/*
+Meu primeiro programa
+*/
+
+//Comentário
+
+//Bibliotecas básicas obrigatórias em todos os programas
+#include<stdio.h> //standart imput(entrada) output(saída) 
+#include<stdlib.h> //standart library
+
+//passo a passo do que eu quero que a máquina faça
+//int main é obrigatório em todo programa pois é o aviso de onde começa a programaçao
+int main(){
+    //apresentar um texto para o ususário
+    //printar um texto na tela
+    printf("Hallo Welt\n");
+    //O ponto e vígula é obrigatório em todas as linhas e é como se fosse o ponto final
+    //    \n = um comando para fazer com que o programa pule uma linha
+    printf("Hello World\n");
+    
+    printf("Olá Mundo\n");
+    
+}

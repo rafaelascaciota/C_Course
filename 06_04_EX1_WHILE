@@ -1,0 +1,32 @@
+/******************************************************************************
+Calcule o fatorial de um número apresentado pelo usuário.
+*******************************************************************************/
+
+//número fatorial
+//5! = 5*4*3*2*1 = 120
+
+//fazendo este exercício utilizando o while
+
+#include<stdlib.h>
+#include<stdio.h>
+
+int main(){
+    int num;
+    int fatorial = 1;
+    int i=1;
+    
+    printf("Determine qual é o número que deve ser calculado o fatorial:\n");
+    scanf("%d", &num);
+    
+    while(i<=num){
+        printf("Looping: %d\n", i);
+        fatorial = fatorial*i;
+        printf("Fatorial: %d\n", fatorial);
+        // i++ = i+1
+        i = i+1;
+        printf("Novo Looping: %d\n", i);
+    }
+    printf("*******************************************\n");
+    printf("O fatorial de %d é: %d", num, fatorial);
+}
+

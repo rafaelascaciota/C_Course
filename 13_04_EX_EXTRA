@@ -1,0 +1,148 @@
+/******************************************************************************
+Faça um programa que receba dois números. Calcule e mostre:
+- a soma dos números pares desse intervalo de números, incluindo os
+números digitados;
+- a multiplicação dos números ímpares desse intervalo, incluindo os
+digitados;
+*******************************************************************************/
+
+//Todos os programas devem ter a seguinte sequencia:
+//1. ler e ver qual é a solicitaçao que o enunciado faz.
+//2. inserir as bibliotecas que serao utilizadas
+//3. iniciar a funçao que ocorrerá a programaçao com o int main
+//4. colocar toda a programaçao dentro do int main 
+//5. declarar as variáveis
+//6. solicitar a informaçao necessária do usuário
+//7. fazer a devida programaçao
+//8. apresentar o resultado ao usuário
+
+
+#include<stdio.h>    //#include serve para incluir as bibliotecas
+                     //stdio ---> biblioteca referente as entradas e saídas
+#include<stdlib.h>   //stdlib --> biblioteca referente aos comandos básicos
+#include<math.h>     //math  ---> biblioteca referente aos comandos matemáticos
+
+int main(){
+   //Objetivo: 1º. Pedir para o usuário digitar dois números
+   //          2º. Verificar se n1>n2 ou se o n2>n1
+   //          3º. Verificar quais números estao no intervalo entre n1 e n2
+   //          4º. Verificar se o número é par ou impar
+   //          5º. Somar os números pares e multiplicar os números ímpares
+   //          6º. Apresentar o resultado ao usuário 
+   
+   //declarar as variáveis
+   int n1;
+   int n2;
+   int soma = 0;
+   int multiplica = 1;
+   int i;
+   int resto;
+   
+   //1º.pedi ao usuário quais sao os numeros
+   printf("Digite o primeiro número.\n");
+   scanf("%i", &n1);
+   
+   printf("Digite o segundo número.\n");
+   scanf("%i", &n2);
+   
+   //2º. verificar se n1>n2 ou se n2>n1
+   if(n1<n2){
+       //n1 sendo menor do que n2
+       
+       //para varrer todos os números que estao no intervalo 
+       //entre n1 e n2 utilizaremos o while(enquanto)
+       
+       i=n1;
+       while(i<=n2){
+        //enquanto a variável i for menor ou igual a n2 ela terá o valor
+        //de todos os números no intervalo entre n1 e n2
+            printf("Esta é a volta : %i\n", i);
+            //verificar se o número é par ou ímpares
+            //verificar o valor do resto da divisao deste número por 2
+            //n1=2 3 4 5 6 7 8 n2=9
+            //par = 2, 4, 6, 8;
+            //impar = 3, 5, 7, 9;
+            
+            //o sinal % determina o resto de uma divisao
+            resto=i%2;
+            printf("Resto: %i\n", resto);
+            //verificar se é par ou ímpar:
+            if(resto==0){ //se o resto for 0 o número é par
+                //== representa a verificaçao se aquela afirmaçao
+                //é verdadeira
+                //par = 2, 4, 6, 8;
+                
+                //soma = 0 + 2 = 2;
+                //soma = 2 + 4 = 6;
+                //soma = 6 + 6 = 12;
+                //soma = 12 + 8 = 20;
+                
+                soma = soma + i;    
+                printf("Soma: %i\n", soma);    
+            }else{//caso contrário o número é impar
+                //impar = 3, 5, 7, 9;
+                //multiplica = 1*3 = 3;
+                //multiplica = 3*5 = 15;
+                //multiplica = 15*7 = 105;
+                //multiplica = 105*9 = 945;
+                
+                multiplica = multiplica * i;
+                printf("Multiplica: %i\n", multiplica);
+            }
+        //para irmos para o próximo valor eu tenho que Somar
+        //1 elemento a variável i
+        
+        i = i+1;
+        printf("A próxima volta é: %i\n", i);
+       }
+       printf("O resultado da soma é: %i\n",soma);
+       printf("O resultado da multiplicação é: %i\n", multiplica);
+   }else if(n2<n1){
+       //n2 sendo menor do que n1
+       //o usuário colocou que o n1 = 6 e o n2 = 1 
+       // a seguinte sequencia: 1 2 3 4 5 6 
+       //pares: 2 4 6
+       //impar: 1 3 5  
+       
+       i=n2;
+       //varrer toda a sequencia apresentada acima
+       while(i<=n1){
+        //enquanto a valor da volta for menor ou igual ao valor de n1
+        //nós devemos continuar a fazer o que está nesta parte
+        
+        //determinar o valor do resto de cada volta
+        resto=i%2;
+            
+            if(resto==0){
+                //se o resto da divisao for igual a 0 
+                //posso afirmar que meu número é par
+                soma = soma+i;
+                //par = 2 4 6 
+                //soma = 0+2 = 2;
+                //soma = 2+4 = 6;
+                //soma = 6+6 = 12
+            }else{
+                //caso o resto da divisao seja diferente de zero
+                //sabemos que o número é impar
+                multiplica = multiplica*i;
+                //impar = 1 3 5 
+                //multiplica = 1*1 = 1;
+                //multiplica = 1*3 = 3;
+                //multiplica = 3*5 = 15;
+            }
+        
+        //determinar qual é a próxima volta
+        i = i + 1;   
+       }
+    printf("O resultado da soma é: %i\n",soma);
+    printf("O resultado da multiplicação é: %i\n", multiplica);
+   }else{
+       //este ultimo else é para o caso de n2=n1
+       soma = 0;
+       multiplica = 0;
+       printf("O resultado da soma é: %i\n",soma);
+       printf("O resultado da multiplicação é: %i\n", multiplica);
+   }
+   
+    
+}

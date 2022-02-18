@@ -1,0 +1,30 @@
+/******************************************************************************
+Leia um valor de comprimento em polegadas e apresente-o
+convertido em centímetros. A fórmula de conversão é:
+C = P*2.54, sendo C o comprimento em centímetros e P o
+comprimento em polegadas.
+*******************************************************************************/
+
+
+//Algoritmo:
+//1º. Perguntar ao usuário qual é o valor que deve ser convertido
+//2º. Faço a conversao do valor determinado
+//3º. Apresento o valor convertido ao usuário
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    
+    float pol;
+    float cent;
+    
+    //perguntar ao usuário o valor que deve ser convertido
+    printf("Digite um valor em Polegadas para ser convertido para Centímetros:\n");
+    scanf("%f", &pol);
+    //fazer a conversao para centimetros
+    cent = pol*2.54;
+    //apresentar o resultado ao usuário
+    printf("O valor de %.2f em polegadas convertido para centímetros é: %.2f cm", pol, cent);
+}
+

@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+int n;
+int i = 1;
+int f1=0, f2=1, f3;
+printf("Programa de impressão da sequencia de Fibonacci\n");
+printf("Insira a quantidade de termos desejados para a sequencia de Fibonacci: ");
+scanf("%d", &n);
+if(n <= 0){
+printf("Número invalido");
+}else{
+printf("%d;", f2);
+while (i < n){
+f3 = f2 + f1;
+printf("%d;", f3);
+f1 = f2;
+f2 = f3;
+i++;
+}
+printf("\n");
+}
+system("Pause");
+return 0;
+}

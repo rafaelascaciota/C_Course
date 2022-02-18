@@ -1,0 +1,48 @@
+/******************************************************************************
+Leia um valor de comprimento em polegadas e apresente-o
+convertido em centímetros. A fórmula de conversão é:
+C = P*2.54, sendo C o comprimento em centímetros e P o
+comprimento em polegadas.
+*******************************************************************************/
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    //aqui deverá ter toda a programacao
+    //objetivo: fazer a conversao do comprimento que será apresentado em 
+    //polegadas para centimetros
+    //declarando o tipo de dado que será inserido em cada variavel
+    
+                //char ---> é um tipo de variável que guarda caractéres
+                //caractéres sao: letras, números, pontos.
+    
+                //int ---> é um tipo de variável que somente aceita 
+                //valores sem virgula
+    
+    float C;     //float ---> tipo de variável que aceita valores
+    float P;     //com virgula e valores sem virgula
+    
+    //agora irei apresentar para o usuário qual é a pergunta que ele deve
+    //responder para que eu dê sequencia a minha programaçao
+    //printf: apresenta a informaçao escrita nesta funçao para o usuário
+    printf("Qual é o valor que deve ser convertido de polegadas para centímetros?\n");
+    // o \n serve para fazer o programa pular a linha
+    //scanf: funçao que guarda a informaçao escrita pelo usuário em
+    //uma determinada variável
+    //scanf("%f %f", &P, &C);
+    scanf("%f", &P);
+    //o & serve para guardar as informaçoes digitadas na variável correta
+    
+    //equaçao referente a conversao
+    C=P*2.54;
+    //o sinal de igual já faz com que o resultado da equaçao seja
+    //guardado na variável que fica a esquerda do sinal de igual
+    //nao preciso colocar um scanf para que guarde o resultado na 
+    //variável C
+    
+    //apresentar o resultado da equaçao ao usuário
+    printf("O valor de %f em polegadas convertido em centimetros é: %f cm\n", P, C);
+    
+}

@@ -1,0 +1,33 @@
+/******************************************************************************
+Calcule o fatorial de um número apresentado pelo usuário.
+*******************************************************************************/
+
+//fatorial ---> 5! = 5*4*3*2*1 
+
+//incluir as bibliotecas
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    
+    int numero;
+    int fatorial=1;
+    int i=1;
+    
+    printf("Determine qual é o número que será calculado o fatorial:\n");
+    scanf("%d", &numero);
+    
+    //determinando o fatorial de um número utilizando
+    //estrutura de repetiçao (for)
+    //for = para
+    
+    for(i;i<=numero;i++){
+        //fazer o cálculo do fatorial
+        printf("Volta: %d\n", i);
+        fatorial = fatorial*i;
+        printf("Fatorial: %d\n", fatorial);
+    }
+    
+    printf("O fatorial de %d é: %d", numero, fatorial);
+}
+

@@ -1,0 +1,52 @@
+/******************************************************************************
+Faça um programa que leia um número e, caso ele seja positivo,
+calcule e mostre:
+-O número digitado ao quadrado
+-A raiz quadrada do número digitado
+*******************************************************************************/
+
+
+//Algoritmo:
+//1º. PErguntar ao usuário que numero ele quer saber a raiz e o quadrado
+//2º. Verificar se o número é positivo ou negativo
+//3º. Fazer os devidos equacionamentos
+//4º. Apresentar o resultado ao usuário
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>   //biblioteca contendo operaçoes matemáticas
+
+int main(){
+    
+    float num;
+    float raiz;
+    float quadrado;
+    
+    printf("Digite o valor que você deseja saber a raiz e o quadrado\n");
+    scanf("%f", &num);
+    
+    //float aceita numeros inteiros e números com virgula
+    //int SÓ aceita números inteiros
+    
+    //verificar se o número é positivo ou negativo
+    // numeros positivos sao maiores do que ZERO
+    //O zero é zero, nao é negativo nem positivo. 
+    
+    //se (o numero for maior do que zero)
+    if(num>0){
+        //números positivos
+        //O número digitado ao quadrado
+        quadrado = num*num;
+        //A raiz quadrada do número digitado
+        //raiz quadrada em ingles = square root(sqrt)
+        raiz = sqrt(num);
+        printf("O quadrado é: %f.\n A raiz é: %f.", quadrado, raiz);
+        
+    }else{
+        //números negativo
+        printf("Nao é possível fazer a programaçao com o devido número escolhido.");
+    }
+    
+    
+}
+

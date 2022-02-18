@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+int a, b, elementon, i, n;
+
+a = 0;
+b = 1;
+
+    printf ("Programa para  impressaão da sequencia de Fibonacci\n");
+    
+    printf ("Insira o valor inicial da sequência de Fibonacci desejada:");
+    scanf ("%d",&n);
+    
+    printf("\nSérie de Fibonacci:\n\n");
+    printf("1 \n");
+    
+    if(n<=0){
+        print("Número inválido")
+    }else{
+     
+        for ( i = 1; i < n ; i++){
+            
+        elementon = a + b;
+        a = b;
+        b = elementon;
+        
+        printf("%d\n", elementon);
+        
+        }
+    }
+        system("pause");
+        return 0;
+}

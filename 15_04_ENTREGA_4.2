@@ -1,0 +1,79 @@
+/******************************************************************************
+A sequência de Fibonacci tem papel importante na explicação de
+fenômenos naturais. Ela é também bastante utilizada para fins
+estéticos, pela sua reconhecida harmonia. Exemplo disso foi sua
+utilização na construção do Partenon, em Atenas. A sequência
+dá-se inicialmente por dois números 1. A partir do terceiro elemento
+usa-se a expressão: elementon = elementon+1 + elementon+2.
+Exemplo de sequência: 1, 1, 2, 3, 5, 8. Construa um algoritmo que
+imprima na tela os n primeiros elementos da sequência de
+Fibonacci, onde n é informado pelo usuário
+*******************************************************************************/
+
+//while --> funçao que usa como base a palavra enquanto.
+//enquanto um condiçao for verdadeira eu irei continuar 
+//fazendo a repetiçao daquela parte do programa
+
+//algoritmo:
+//1º. Perguntar ao usuário quantos numeros da sequencia de fibonacci
+//o usuário deseja saber.
+//2º. Determinar a sequencia até o número qe o usuário deseja saber
+//3º. Apresentar a sequencia
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    //perguntar ao ususário até que número ele quer
+    // que vá a sequencia de fibonacci
+    
+    int num;
+    int i=1;
+    int ant=1;
+    int prox=1;
+    int fibonacci;
+    
+    
+    printf("Digite a quantidade de números que deve ter a sequencia de fibonacci\n");
+    scanf("%i", &num); 
+    
+    
+    
+    
+    if(num<=0){
+        printf("Não há sequencia.");
+    }else if(num == 1){
+        printf("%i", prox);
+    }else if(num == 2){
+        printf("%i %i", prox, prox);
+    }else{// o usuário pediu pra serem apresentados mais do que dois numeros
+         // da sequencia de fibonacci
+         
+        //Os primeiros dois números são impossiveis de apresentar com 
+        // a repetiçao. Entao apresentamos antes da repetiçao
+        printf("%i - %i -", prox, prox); // Apresentando: 1 1
+    while((i+2)<(num+1)){  //descontar da repetiçao a quantidade de números
+                       // que já foi apresentada na sequencia de fibonacci
+                       
+        //a sequencia de fibonacci a partir do 3º número apresenta a
+        //a seguinte equaçao:
+        
+        // FIBONACCI = FIBONACCI_ultimo + FIBONACCI_antepenultimo
+        // FIBONACCI = 1                + 1
+        fibonacci = ant + prox;
+                //  1 + 1 = 2
+        printf("%i - ", fibonacci);
+        prox = ant;
+             // 1
+        //printf("prox = %i\n", prox);
+        ant = fibonacci;
+             // 2
+        //printf("prox = %i\n", ant);   
+        i++;
+    }
+    }
+}
+
+
+
+
